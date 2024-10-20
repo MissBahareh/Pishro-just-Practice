@@ -1,0 +1,2236 @@
+<!DOCTYPE html>
+<html lang="fa_IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../sass/shop1.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="coverly" class="cover0"></div>
+        <div class="header">
+            <div class="top">
+                <div class="rightSide">
+                    <img src="../img/logo.png" alt="">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                    </span>
+                    <input type="text" placeholder="جست و جو در محصولات ...">
+
+                </div>
+                <div class="leftSide">
+                    <button style="border: 1px solid rgb(0, 0, 0);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-suit-heart" viewBox="0 0 16 16">
+                            <path
+                                d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.6 7.6 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z" />
+                        </svg>
+                        علاقه مندی ها </button>
+                    <button
+                        style="margin-left:0 ; background-color: rgb(29, 189, 29);color: white; border-color:rgb(29, 189, 29) ;">سبد
+                        خرید
+                        <span id="bagNum">0</span>
+                    </button>
+                </div>
+            </div>
+            <div class="end">
+                <div class="rightSideE">
+                    <button class="btn " id="li1Menu" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                        <svg style="margin: 0 5px;" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                        <span>
+                            دسته بندی محصولات
+                        </span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-start sideMenu " data-bs-scroll="true" tabindex="-1"
+                        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                        <div class="offcanvas-header">
+                            <div class="divLogo">
+                                <img style="display: flex; width: 150px;" src="../img/logo1.png" alt="">
+                                <div class="loader"></div>
+                            </div>
+                        </div>
+                        <div class="offcanvas-body divSideMenue">
+                            <div class="divMenuSide">
+                                <ul>
+                                    <li class="li1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                        </svg>
+                                        <a class="li1" style="text-decoration: none;color: rgb(110, 55, 23);"
+                                            href="../html/index.html">
+                                            صفحه نخست
+                                        </a>
+                                    </li>
+                                    <li class="li2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                        </svg>
+                                        مجموعه لباس و اکسسوری زنانه
+                                    </li>
+                                    <li class="li3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                        </svg>
+                                        مجموعه لباس و اکسسوری مردانه
+                                    </li>
+                                    <li class="li4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                        </svg>
+                                        مجموعه لباس و اکسسوری نوجوان و جوان
+                                    </li>
+                                    <li class="li5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                        </svg>
+                                        مجموعه لباس و اکسسوری نوزاد
+                                    </li>
+                                    <li class="li6">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                        </svg>
+                                        سبد خرید
+                                    </li>
+                                    <li class="li7">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                        </svg>
+                                        تماس با کارشناسان پیشرو
+                                    </li>
+                                    <li class="li8">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                        </svg>
+                                        درباره پیشرو
+                                    </li>
+
+                                    <div class="showIcon">
+                                        <div class="listitem1">
+                                        </div>
+                                        <div class="listitem2">
+                                            <img src="../img/ساید/081f9aca-1693-4f07-9d67-f916fe50ff7c-Photoroom.png"
+                                                alt="">
+                                        </div>
+                                        <div class="listitem3">
+                                            <img src="../img/ساید/mardane_tarahilebas-Photoroom.png" alt="">
+                                        </div>
+                                        <div class="listitem4">
+                                            <img src="../img/ساید/Cart1025577www.tiktarh.com_-Photoroom.png" alt="">
+                                        </div>
+                                        <div class="listitem5">
+                                            <img src="../img/ساید/fc32f06a15b72682baf45a25500e1ac87d5bf827_1653902478 (1)-Photoroom.png"
+                                                alt="">
+                                        </div>
+                                        <div class="listitem6">
+                                            <img src="../img/ساید/secondhands2-Photoroom.png" alt="">
+                                        </div>
+                                        <div class="listitem7">
+                                            <img src="../img/ساید/2024720-15-17-6-278-Photoroom.png" alt="">
+                                        </div>
+                                        <div class="listitem8">
+                                            <img src="../img/ساید/aboutus.03984d27afe6435aec50.png" alt="">
+                                        </div>
+
+                                    </div>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="ulMene">
+                        <li class="li0Menu">فروشگاه</li>
+                        <li class="li0Menu">تخفیفات شگفت انگیز</li>
+                        <li class="li0Menu"><a style="color: black;text-decoration: none;"
+                                href="../html/login.html">حساب کاربری من</a></li>
+                        <li class="li0Menu">دموهای دیگر</li>
+                    </ul>
+                </div>
+                <div class="lefttSideE">
+                    <button class="lefttSideEbtn">
+                        <a style="color: black;text-decoration: none;" href="../html/login.html">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                    <path fill-rule="evenodd"
+                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                                </svg>
+                            </span>ورود / ثبت نام
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="middel">
+            <div class="coverPage">
+                <div class="divWave">
+                    <img class="wave" src="../img/svg/valley-white.svg" alt="">
+                </div>
+
+                <div class="coverlyDiv">
+                    <div class="topRow">
+                    </div>
+                    <div class="middelRoe">
+                        <h1 class="title01 h1">فروشگاه <span style=" margin: 10px;">پیشرو</span> عرضه کننده انواع پوشاک
+                        </h1>
+                        <h2 class="title02 h1">تخفیفات فصلی تا سقف <span style=" margin: 10px;">20%</span></h2>
+
+                    </div>
+                    <div class="bottomRow">
+                        <div class="mainBottomRow">
+                            <div class="bmDivImg1">
+                                <img class="bmImg1" src="../img/cover/1.png" alt="">
+                            </div>
+                            <div class="bmDivImg2">
+                                <img class="bmImg2" src="../img/cover/2.png" alt="">
+                            </div>
+                            <div class="bmDivImg3">
+                                <img class="bmImg3" src="../img/cover/3.png" alt="">
+                            </div>
+                            <div class="bmDivImg4">
+                                <img class="bmImg4" src="../img/cover/4.png" alt="">
+                            </div>
+                            <div class="bmDivImg5">
+                                <img class="bmImg5" src="../img/cover/unnamed-Photoroom.png" alt="">
+                            </div>
+                            <div class="bmDivImg6">
+                                <img class="bmImg6"
+                                    src="../img/cover/illustration-illustration-support-assistance-call_-crce0e13287-_size1.32mb.webp"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="mainContentPages">
+                <div class="BreadcrumbSide">
+                    <span style="cursor: pointer;"><a style="color: black;text-decoration: none;"
+                            href="../html/index.html">صفحه اصلی</a></span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                            class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                        </svg>
+                    </span>
+                    <span style="cursor: pointer; color: rgb(249,52,35);font-weight: 600; ">مجموعه لباس زنانه</span>
+                </div>
+                <h2 class="titlePage">کالکشن زنانه (پاییزی)</h2>
+                <div class="mainCard">
+                    <div class="card8">
+                        <div class="inDiv8Card1">
+                            <img class="imgDiv8Card01" src="../img/cart8/1/1.webp" alt="">
+                            <img class="imgDiv8Card1" src="../img/cart8/1/2.webp" alt="">
+                        </div>
+                        <div class="inDiv8Card2">
+                            <img class="imgDiv8Card02" src="../img/cart8/2/photo_2023-09-02_09-54-41-2.jpg" alt="">
+                            <img class="imgDiv8Card2" src="../img/cart8/2/مدل-مانتو-پاییزه-ججدید.jpg" alt="">
+                        </div>
+                        <div class="inDiv8Card3">
+                            <img class="imgDiv8Card03"
+                                src="../img/cart8/3/313184957_527435392537945_4916842970387722894_n.webp" alt="">
+                            <img class="imgDiv8Card3" src="../img/cart8/3/1.webp" alt="">
+                        </div>
+                        <div class="inDiv8Card4">
+                            <img class="imgDiv8Card04" src="../img/000.jpg" alt="">
+                            <img class="imgDiv8Card4" src="../img/کلاه/collection.jpg" alt="">
+                        </div>
+                        <div class="content1Card4">
+                            <span>NEW</span>
+                            <span>COLLECTION</span>
+                        </div>
+                        <div class="content2Card4">
+                            <span style="font-size: 30px;">UpTo</span>
+                            <span style="font-size: 60px; color: rgb(249,52,35);">50%</span>
+                        </div>
+
+                    </div>
+                    <div class="card7">
+                        <div class="cards7One">
+                            <div class="titleCards7One">
+                                <span class="spanImg">
+                                    <img src="../img/download.png" alt="">
+                                </span>
+                                <span>پرفروش ترین محصولات</span>
+                                <span>#1</span>
+
+                            </div>
+                            <div class="imgDivCard7">
+                                <img src="../img/001.jpg" alt="">
+                            </div>
+                            <div class="contDivCard7">
+                                <h6>کلاه لبه دار کبریتی</h6>
+                                <span>245,000 تومان</span>
+                            </div>
+                            <div class="divBtmCard7">
+                                <button class="btmCard7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="rgb(249,52,35)"
+                                        class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cards7Tow">
+                            <div class="imgDivCard27">
+                                <img class="img1Card7Tow" src="../img/کلاه/11.png" alt="">
+                                <img class="img2Card7Tow" src="../img/کلاه/1101.jpg" alt="">
+                            </div>
+                            <div class="contDivCard27">
+                                <h6>کالکشن مردانه</h6>
+                                <button>مشاهده</button>
+                            </div>
+                        </div>
+                        <div class="cards7Three">
+                            <div class="imgDivCard37">
+                                <img class="img1Card7Three" src="../img/کلاه/10100000.png" alt="">
+                                <img class="img2Card7Three" src="../img/کلاه/100000.jpg" alt="">
+                            </div>
+                            <div class="contDivCard37">
+                                <h6>کالکشن زنانه</h6>
+                                <button>مشاهده</button>
+                            </div>
+                        </div>
+                        <div class="cards7Four">
+                            <div class="imgDivCard47">
+                                <img class="img1Card7Four" src="../img/کلاه/12.webp" alt="">
+                                <img class="img2Card7Four" src="../img/کلاه/120.png" alt="">
+                            </div>
+                            <div class="contDivCard47">
+                                <h6>کالکشن بچگانه</h6>
+                                <button>مشاهده</button>
+                            </div>
+                        </div>
+                        <div class="cards7Five">
+                            <div class="imgDivCard57">
+                                <img class="img1Card7Five" src="../img/کلاه/13.jpg" alt="">
+                                <img class="img2Card7Five" src="../img/کلاه/model-baby-boy-clothes-2022-3.jpg" alt="">
+                            </div>
+                            <div class="contDivCard57">
+                                <h6>کالکشن نوزاد</h6>
+                                <button>مشاهده</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card6">
+                        <div class="divCard6_2">
+                            <div id="carouselExampleAutoplaying" class="carousel slide sliderMiddel"
+                                data-bs-ride="carousel" style="border-radius: 10px;">
+                                <div class="carousel-inner" id="innerSliderMiddel">
+                                    <div class="carousel-item active">
+                                        <img src="../img/بنر/1.gif" class="d-block w-100" style="border-radius: 10px;"
+                                            alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/بنر/10.gif" class="d-block w-100" style="border-radius: 10px;"
+                                            alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/بنر/9.jpg" class="d-block w-100" style="border-radius: 10px;"
+                                            alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divCard6_1"></div>
+                    </div>
+
+                    <div class="card1" style="margin: 10px 5px;">
+                        <div class="colorCard1">
+                            <div class="innerColors1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(252, 236, 196)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(165, 146, 120)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg id="fullCard1" style="margin-top: 160px; cursor: pointer;"
+                                    xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="conDivCard1">
+                            <div class="titleCard1">
+                                <span class="sTitle1">کلاه کاپیتانی زیپی</span>
+                                <button>8%</button>
+                            </div>
+                            <div class="mainPrice1">
+                                <div class="pice1">
+                                    <span class="firstPrice1">450.000</span>
+                                    <span class="finalPrice1">380.000</span>
+
+                                </div>
+                                <span class="toman1">تومان</span>
+                            </div>
+                        </div>
+                        <div class="imgDivCard1">
+                            <img src="../img/card1/1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div id="firstCard" class="popCard10">
+                        <div class="titleBox">
+                            <h2>کلاه کاپیتانی زیپی</h2>
+                            <span id="mainPrice" style="visibility: hidden;">380000</span>
+                            <button id="closBtnCart1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgb(194, 7, 7)"
+                                    class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                                </svg>
+                            </button>
+
+
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;" class="accordion-button"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        درباره کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion1">
+                                            <div class="divSpans">
+                                                <span style="width: 100%;"> وارداتی - کیفیت بالا - جنس چرم مصنوعی</span>
+                                                <span style="width: 100%;">مناسب تا سایز سر 59</span>
+                                                <p style="width: 100%;">این کلاه را هم به صورت کلاه کاپیتانی هم کلاه
+                                                    فرانسوی میتوانید استفاده کنید .</p>
+                                                <p style="width: 100%;">زیپ کار باز میشود و نقاب کاملا جدا میشود که به
+                                                    کلاه فرانسوی تبدیل میشود .</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ارسال کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion2">
+                                            <div class="contAccor2">
+                                                <p>تمامی مراحل را از زمان ثبت تا ارسال سفارشات را از طریق پیامک به اطلاع
+                                                    شما می‌رسانیم.</p><br>
+                                                <p>بعد از دریافت پیامک ارسال مرسوله، برای دریافت کد رهگیری وارد کانال
+                                                    واتس آپ شده و در لیست های ارسالی، کد رهگیری خود را پیدا کنید. روش
+                                                    پیگیری را به طور کامل در کانال توضیح دادیم.</p><br>
+                                                <p>تمامی سفارشات شما را با پست پیشتاز به سراسر کشور ارسال میکنیم و از
+                                                    روز ارسال طی ۳-۴ روز کاری (در صورتی که اداره پست اختلال یا تاخیر
+                                                    نداشته باشد) به دست شما خواهد رسید.</p><br>
+                                                <p>ارسال سریع توسط چاپار ، از طریق شرکت چاپار کدرهگیری برای شما پیامک
+                                                    میشود و مدت زمان رسیدن بسته ۲ تا ۴ روز کاری است .</p>
+                                            </div>
+
+                                            <div class="imgDiv">
+                                                <img src="../img/card1/loading-the-truck.gif" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        افزودن به سبد خرید
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <button id="sendNum" class="sendToBag">افزودن به سبد خرید</button>
+                                        <button
+                                            style="pointer-events: none; background-color: green; border-radius: 5px;"
+                                            class="sendToBag">قیمت : 380.000 تومان</button>
+                                        <div id="divTakh" class="floating-lable-group">
+                                            <input id="codeTakhfif" type="text">
+                                            <label class="floating-lable">کد تخفیف را وارد کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="number" id="numOfThg">
+                                            <label class="floating-lable">تعداد را مشخص کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWithOut" style="pointer-events: none;">
+                                            <label class="floating-lable"> بدون تخفیف</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWith" style="pointer-events: none;">
+                                            <label class="floating-lable"> با تخفیف</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divImgCard1">
+                            <div class="rightSid">
+                                <h2 class="headComment">نظر خریداران</h2>
+                                <div class="comment" style="margin-top: 0;">
+                                    <h3>نازنین زهرا</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/07/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>سمیه</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>نیلوفر زارع</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>مرضیه R</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>کژال</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                            </div>
+                            <div class="leftSide">
+                                <div class="otherImg">
+                                    <img id="otherImagges" src="../img/card1/1.jpg" alt="">
+                                    <img id="otherImagges" src="../img/card1/0.jpg" alt="">
+                                    <img id="otherImagges" src="../img/card1/2.jpg" alt="">
+                                    <img id="otherImagges" src="../img/card1/3.jpg" alt="">
+
+                                </div>
+                                <div class="mainImg">
+                                    <div class="colors">
+                                        <div style="background-color: rgb(252, 236, 196);" class="color"></div>
+                                        <div style="background-color: rgb(165, 146, 120);" class="color"></div>
+                                        <div style="background-color: black;" class="color"></div>
+                                    </div>
+                                    <img id="mainImgCov" src="../img/card1/0.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="card3" style="margin: 10px 5px;">
+                        <div class="colorCard3">
+                            <div class="innerColors3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="black"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="rgb(50, 62, 24)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+
+
+                                <svg id="fullCard3" style="margin-top: 180px; cursor: pointer;"
+                                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="conDivCard3">
+                            <div class="titleCard3">
+                                <span class="sTitle3">نیم بوت چرم لیون</span>
+                                <button>9%</button>
+                            </div>
+                            <div class="mainPrice3">
+                                <div class="pice3">
+                                    <span class="firstPrice3">2.000.000</span>
+                                    <span class="finalPrice3">1.600.000</span>
+
+                                </div>
+                                <span class="toman3">تومان</span>
+                            </div>
+                        </div>
+                        <div class="imgDivCard3">
+                            <img src="../img/card3/0.jpg" alt="">
+                        </div>
+                    </div>
+                    <div id="thirdCard" class="popCard30">
+                        <div class="titleBox3">
+                            <h2>نیم بوت چرم لیون</h2>
+                            <span id="mainPrice3" style="visibility: hidden;">1600000</span>
+                            <button id="closBtnCart3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgb(194, 7, 7)"
+                                    class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="accordion accordion3" id="accordionExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header ">
+                                    <button style=" font-size:16px; font-weight: 600;" class="accordion-button"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        درباره کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion1">
+                                            <div class="divSpans">
+                                                <span style="width: 100%;"> جنس رویه شبرو گاوی - آستر چرم میشن</span>
+                                                <span style="width: 100%;">سایز : 36, 37, 38, 39, 40</span>
+                                                <p style="width: 100%;">نحوه نگهداری : گردگری تمیز + واکس یا روغن هم رنگ
+                                                </p>
+                                                <p style="width: 100%;">توجه : قالب این کار استاندارد می باشد، کفش را
+                                                    براساس سایز همیشگی پایتان تهیه کنید .</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ارسال کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion2">
+                                            <div class="contAccor2">
+                                                <p>تمامی مراحل را از زمان ثبت تا ارسال سفارشات را از طریق پیامک به اطلاع
+                                                    شما می‌رسانیم.</p><br>
+                                                <p>بعد از دریافت پیامک ارسال مرسوله، برای دریافت کد رهگیری وارد کانال
+                                                    واتس آپ شده و در لیست های ارسالی، کد رهگیری خود را پیدا کنید. روش
+                                                    پیگیری را به طور کامل در کانال توضیح دادیم.</p><br>
+                                                <p>تمامی سفارشات شما را با پست پیشتاز به سراسر کشور ارسال میکنیم و از
+                                                    روز ارسال طی ۳-۴ روز کاری (در صورتی که اداره پست اختلال یا تاخیر
+                                                    نداشته باشد) به دست شما خواهد رسید.</p><br>
+                                                <p>ارسال سریع توسط چاپار ، از طریق شرکت چاپار کدرهگیری برای شما پیامک
+                                                    میشود و مدت زمان رسیدن بسته ۲ تا ۴ روز کاری است .</p>
+                                            </div>
+
+                                            <div class="imgDiv">
+                                                <img src="../img/card1/loading-the-truck.gif" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-item3 ">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        افزودن به سبد خرید
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse3"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <button id="sendNum3" class="sendToBag3">افزودن به سبد خرید</button>
+                                        <button
+                                            style="pointer-events: none; background-color: green; border-radius: 5px;"
+                                            class="sendToBag">قیمت : 1.600.000 تومان</button>
+                                        <div id="divTakh3" class="floating-lable-group">
+                                            <input id="codeTakhfif3" type="text">
+                                            <label class="floating-lable">کد تخفیف را وارد کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="number" id="numOfThg3">
+                                            <label class="floating-lable">تعداد را مشخص کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWithOut3" style="pointer-events: none;">
+                                            <label class="floating-lable"> بدون تخفیف</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWith3" style="pointer-events: none;">
+                                            <label class="floating-lable"> با تخفیف</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divImgCard3">
+                            <div class="rightSid">
+                                <h2 class="headComment">نظر خریداران</h2>
+                                <div class="comment" style="margin-top: 0;">
+                                    <h3>نازنین زهرا</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/07/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>سمیه</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>نیلوفر زارع</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>مرضیه R</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>کژال</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                            </div>
+                            <div class="leftSide">
+                                <div class="otherImg">
+                                    <img id="otherImagges3" src="../img/card3/1.jpg" alt="">
+                                    <img id="otherImagges3" src="../img/card3/0.jpg" alt="">
+                                    <img id="otherImagges3" src="../img/card3/2.jpg" alt="">
+                                    <img id="otherImagges3" src="../img/card3/4.jpg" alt="">
+
+                                </div>
+                                <div class="mainImg">
+                                    <div class="colors">
+                                        <div style="background-color: rgb(50, 62, 24);" class="color"></div>
+                                        <div style="background-color: black;" class="color"></div>
+                                    </div>
+                                    <img id="mainImgCov3" src="../img/card3/0.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="card12" style="margin: 10px 5px;">
+                        <div class="colorCard12">
+                            <div class="innerColors12">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(90, 108, 52)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(157, 81, 31)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(129, 4, 154)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+
+                                <svg id="fullCard12" style="margin-top: 120px; cursor: pointer;"
+                                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="conDivCard12">
+                            <div class="titleCard12">
+                                <span class="sTitle12">کیف اسپرت زنانه</span>
+                                <button>9%</button>
+                            </div>
+                            <div class="mainPrice12">
+                                <div class="pice12">
+                                    <span class="firstPrice12">950.000</span>
+                                    <span class="finalPrice12">800.000</span>
+
+                                </div>
+                                <span class="toman12">تومان</span>
+                            </div>
+                        </div>
+                        <div class="imgDivCard12">
+                            <img src="../img/card12/0.jpg" alt="">
+                        </div>
+                    </div>
+                    <div id="twelfthCard" class="popCard120">
+                        <div class="titleBox12">
+                            <h2>کیف اسپرت زنانه</h2>
+                            <span id="mainPrice12" style="visibility: hidden;">800000</span>
+                            <button id="closBtnCart12">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgb(194, 7, 7)"
+                                    class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="accordion accordion12" id="accordionExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header ">
+                                    <button style=" font-size:16px; font-weight: 600;" class="accordion-button"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        درباره کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion1">
+                                            <div class="divSpans">
+                                                <span style="width: 100%;">.جنس کیف از چرم مصنوعی درجه یک میباشد</span>
+                                                <span style="width: 100%;">دوخت تمیز و منظم</span>
+                                                <p style="width: 100%;">استفاده شده از یراق با کیفیت بالا </p>
+                                                <p style="width: 100%;">دارای بند وقابل تنظیم</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ارسال کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion2">
+                                            <div class="contAccor2">
+                                                <p>تمامی مراحل را از زمان ثبت تا ارسال سفارشات را از طریق پیامک به اطلاع
+                                                    شما می‌رسانیم.</p><br>
+                                                <p>بعد از دریافت پیامک ارسال مرسوله، برای دریافت کد رهگیری وارد کانال
+                                                    واتس آپ شده و در لیست های ارسالی، کد رهگیری خود را پیدا کنید. روش
+                                                    پیگیری را به طور کامل در کانال توضیح دادیم.</p><br>
+                                                <p>تمامی سفارشات شما را با پست پیشتاز به سراسر کشور ارسال میکنیم و از
+                                                    روز ارسال طی ۳-۴ روز کاری (در صورتی که اداره پست اختلال یا تاخیر
+                                                    نداشته باشد) به دست شما خواهد رسید.</p><br>
+                                                <p>ارسال سریع توسط چاپار ، از طریق شرکت چاپار کدرهگیری برای شما پیامک
+                                                    میشود و مدت زمان رسیدن بسته ۲ تا ۴ روز کاری است .</p>
+                                            </div>
+
+                                            <div class="imgDiv">
+                                                <img src="../img/card1/loading-the-truck.gif" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-item12 ">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        افزودن به سبد خرید
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse12"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <button id="sendNum12" class="sendToBag12">افزودن به سبد خرید</button>
+                                        <button
+                                            style="pointer-events: none; background-color: green; border-radius: 5px;"
+                                            class="sendToBag">قیمت : 800.000 تومان</button>
+                                        <div id="divTakh12" class="floating-lable-group">
+                                            <input id="codeTakhfif12" type="text">
+                                            <label class="floating-lable">کد تخفیف را وارد کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="number" id="numOfThg12">
+                                            <label class="floating-lable">تعداد را مشخص کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWithOut12" style="pointer-events: none;">
+                                            <label class="floating-lable"> بدون تخفیف</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWith12" style="pointer-events: none;">
+                                            <label class="floating-lable"> با تخفیف</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divImgCard12">
+                            <div class="rightSid">
+                                <h2 class="headComment">نظر خریداران</h2>
+                                <div class="comment" style="margin-top: 0;">
+                                    <h3>نازنین زهرا</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/07/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>سمیه</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>نیلوفر زارع</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>مرضیه R</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>کژال</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                            </div>
+                            <div class="leftSide">
+                                <div class="otherImg">
+                                    <img id="otherImagges12" src="../img/card12/1.jpg" alt="">
+                                    <img id="otherImagges12" src="../img/card12/0.jpg" alt="">
+                                    <img id="otherImagges12" src="../img/card12/2.jpg" alt="">
+                                    <img id="otherImagges12" src="../img/card12/3.jpg" alt="">
+
+                                </div>
+                                <div class="mainImg">
+                                    <div class="colors">
+                                        <div style="background-color: rgb(90, 108, 52);" class="color"></div>
+                                        <div style="background-color: black;" class="color"></div>
+                                        <div style="background-color: rgb(157, 81, 31);" class="color"></div>
+                                        <div style="background-color: rgb(129, 4, 154);" class="color"></div>
+                                    </div>
+                                    <img id="mainImgCov12" src="../img/card12/0.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="card13">
+                        <img class="imgCard13" src="../img/carad13/original-womens-sunglasses-23.jpg" alt="">
+                        <div class="conCard13">ما هر نوع عینکی که شما بخواین داریم!</div>
+                        <div class="coverCard13"></div>
+                    </div>
+                    <div class="card14">
+                        <img class="imgCard14" src="../img/card14/16665515416131.jpg" alt="">
+                        <div class="conCard14">
+                            کیفیت خوب بستگی به انتخاب شما داره !!
+                        </div>
+                        <div class="coverCard14"></div>
+                    </div>
+                    <div class="card15">
+                        <img class="imgCard15" src="../img/card15/کفش-دخترانه-پاییزی-1.jpg" alt="">
+                        <div class="conCard15">قدم هات را با اطمینان بردار !</div>
+                        <div class="coverCard15"></div>
+                    </div>
+                    <div class="card2" style="margin: 10px 5px;">
+                        <div class="colorCard2">
+                            <div class="innerColors2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(40, 130, 111)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(122, 122, 122)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+
+                                <svg id="fullCard2" style="margin-top: 150px; cursor: pointer;"
+                                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="conDivCard2">
+                            <div class="titleCard2">
+                                <span class="sTitle2">کت و شلوار مدل مانلی</span>
+                                <button>5%</button>
+                            </div>
+                            <div class="mainPrice2">
+                                <div class="pice2">
+                                    <span class="firstPrice2">780.000</span>
+                                    <span class="finalPrice2">707.000</span>
+
+                                </div>
+                                <span class="toman2">تومان</span>
+                            </div>
+                        </div>
+                        <div class="imgDivCard2">
+                            <img src="../img/card2/0.jpg" alt="">
+                        </div>
+                    </div>
+                    <div id="secondCard" class="popCard20">
+                        <div class="titleBox2">
+                            <h2>کت و شلوار مدل مانلی</h2>
+                            <span id="mainPrice2" style="visibility: hidden;">707000</span>
+                            <button id="closBtnCart2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgb(194, 7, 7)"
+                                    class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="accordion accordion2" id="accordionExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header ">
+                                    <button style=" font-size:16px; font-weight: 600;" class="accordion-button"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        درباره کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion1">
+                                            <div class="divSpans">
+                                                <span style="width: 100%;">پارچه پرشیا - پارچه سفید ترکیب شده کرپ
+                                                    مازراتی</span>
+                                                <span style="width: 100%;">پیش کت لایی پرشین کار شده - شلوار زیپ دار و
+                                                    پشت کمر کش داره</span>
+                                                <p style="width: 100%;">جلوی کت با دکمه بسته میشه و جیب کت قابل استفاده
+                                                </p>
+                                                <p style="width: 100%;">سایزبندی 1(38،40)، 2(42،44)، 3(46،48)</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ارسال کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion2">
+                                            <div class="contAccor2">
+                                                <p>تمامی مراحل را از زمان ثبت تا ارسال سفارشات را از طریق پیامک به اطلاع
+                                                    شما می‌رسانیم.</p><br>
+                                                <p>بعد از دریافت پیامک ارسال مرسوله، برای دریافت کد رهگیری وارد کانال
+                                                    واتس آپ شده و در لیست های ارسالی، کد رهگیری خود را پیدا کنید. روش
+                                                    پیگیری را به طور کامل در کانال توضیح دادیم.</p><br>
+                                                <p>تمامی سفارشات شما را با پست پیشتاز به سراسر کشور ارسال میکنیم و از
+                                                    روز ارسال طی ۳-۴ روز کاری (در صورتی که اداره پست اختلال یا تاخیر
+                                                    نداشته باشد) به دست شما خواهد رسید.</p><br>
+                                                <p>ارسال سریع توسط چاپار ، از طریق شرکت چاپار کدرهگیری برای شما پیامک
+                                                    میشود و مدت زمان رسیدن بسته ۲ تا ۴ روز کاری است .</p>
+                                            </div>
+
+                                            <div class="imgDiv">
+                                                <img src="../img/card1/loading-the-truck.gif" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-item2 ">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        افزودن به سبد خرید
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse2"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <button id="sendNum2" class="sendToBag2">افزودن به سبد خرید</button>
+                                        <button
+                                            style="pointer-events: none; background-color: green; border-radius: 5px;"
+                                            class="sendToBag">قیمت : 707.000 تومان</button>
+                                        <div id="divTakh2" class="floating-lable-group">
+                                            <input id="codeTakhfif2" type="text">
+                                            <label class="floating-lable">کد تخفیف را وارد کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="number" id="numOfThg2">
+                                            <label class="floating-lable">تعداد را مشخص کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWithOut2" style="pointer-events: none;">
+                                            <label class="floating-lable"> بدون تخفیف</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWith2" style="pointer-events: none;">
+                                            <label class="floating-lable"> با تخفیف</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divImgCard2">
+                            <div class="rightSid">
+                                <h2 class="headComment">نظر خریداران</h2>
+                                <div class="comment" style="margin-top: 0;">
+                                    <h3>نازنین زهرا</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/07/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>سمیه</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>نیلوفر زارع</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>مرضیه R</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>کژال</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                            </div>
+                            <div class="leftSide">
+                                <div class="otherImg">
+                                    <img id="otherImagges2" src="../img/card2/1.jpg" alt="">
+                                    <img id="otherImagges2" src="../img/card2/0.jpg" alt="">
+                                    <img id="otherImagges2" src="../img/card2/2.jpg" alt="">
+                                    <img id="otherImagges2" src="../img/card2/4.jpg" alt="">
+
+                                </div>
+                                <div class="mainImg">
+                                    <div class="colors">
+                                        <div style="background-color: rgb(40, 130, 111);" class="color"></div>
+                                        <div style="background-color: black;" class="color"></div>
+                                        <div style="background-color: rgb(122, 122, 122);" class="color"></div>
+
+                                    </div>
+                                    <img id="mainImgCov2" src="../img/card2/0.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="card11" style="margin: 10px 5px;">
+                        <div class="colorCard11">
+                            <div class="innerColors11">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(226, 228, 142)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(165, 188, 105)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(181, 105, 29)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(118, 102, 85)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(203, 145, 140)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(46, 74, 21)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(44, 92, 181)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+
+                                <svg id="fullCard11" style="margin-top: 50px; cursor: pointer;"
+                                    xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="conDivCard11">
+                            <div class="titleCard11">
+                                <span class="sTitle11">شال پاییزه دیانا</span>
+                                <button>5%</button>
+                            </div>
+                            <div class="mainPrice11">
+                                <div class="pice11">
+                                    <span class="firstPrice11">550.000</span>
+                                    <span class="finalPrice11">449.000</span>
+
+                                </div>
+                                <span class="toman11">تومان</span>
+                            </div>
+                        </div>
+                        <div class="imgDivCard11">
+                            <img src="../img/card11/33.jpg" alt="">
+                        </div>
+                    </div>
+                    <div id="eleventhCard" class="popCard110">
+                        <div class="titleBox11">
+                            <h2>شال پاییزه دیانا</h2>
+                            <span id="mainPrice11" style="visibility: hidden;">499000</span>
+                            <button id="closBtnCart11">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgb(194, 7, 7)"
+                                    class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="accordion accordion11" id="accordionExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header ">
+                                    <button style=" font-size:16px; font-weight: 600;" class="accordion-button"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        درباره کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion1">
+                                            <div class="divSpans">
+                                                <p style="width: 100%;">جنس : شال پاییزه</p>
+                                                <span style="width: 100%;">ابعاد: طول 202 cm عرض 70 cm</span>
+                                                <span style="width: 100%;">توری، طرح دار، لطیف، شیک، سبک و راحت ،
+                                                    ایستایی مناسب روی سر</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ارسال کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion2">
+                                            <div class="contAccor2">
+                                                <p>تمامی مراحل را از زمان ثبت تا ارسال سفارشات را از طریق پیامک به اطلاع
+                                                    شما می‌رسانیم.</p><br>
+                                                <p>بعد از دریافت پیامک ارسال مرسوله، برای دریافت کد رهگیری وارد کانال
+                                                    واتس آپ شده و در لیست های ارسالی، کد رهگیری خود را پیدا کنید. روش
+                                                    پیگیری را به طور کامل در کانال توضیح دادیم.</p><br>
+                                                <p>تمامی سفارشات شما را با پست پیشتاز به سراسر کشور ارسال میکنیم و از
+                                                    روز ارسال طی ۳-۴ روز کاری (در صورتی که اداره پست اختلال یا تاخیر
+                                                    نداشته باشد) به دست شما خواهد رسید.</p><br>
+                                                <p>ارسال سریع توسط چاپار ، از طریق شرکت چاپار کدرهگیری برای شما پیامک
+                                                    میشود و مدت زمان رسیدن بسته ۲ تا ۴ روز کاری است .</p>
+                                            </div>
+
+                                            <div class="imgDiv">
+                                                <img src="../img/card1/loading-the-truck.gif" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-item11 ">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        افزودن به سبد خرید
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse2"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <button id="sendNum11" class="sendToBag11">افزودن به سبد خرید</button>
+                                        <button
+                                            style="pointer-events: none; background-color: green; border-radius: 5px;"
+                                            class="sendToBag">قیمت : 499.000 تومان</button>
+                                        <div id="divTakh11" class="floating-lable-group">
+                                            <input id="codeTakhfif11" type="text">
+                                            <label class="floating-lable">کد تخفیف را وارد کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="number" id="numOfThg11">
+                                            <label class="floating-lable">تعداد را مشخص کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWithOut11" style="pointer-events: none;">
+                                            <label class="floating-lable"> بدون تخفیف</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWith11" style="pointer-events: none;">
+                                            <label class="floating-lable"> با تخفیف</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divImgCard11">
+                            <div class="rightSid">
+                                <h2 class="headComment">نظر خریداران</h2>
+                                <div class="comment" style="margin-top: 0;">
+                                    <h3>نازنین زهرا</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/07/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>سمیه</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>نیلوفر زارع</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>مرضیه R</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>کژال</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                            </div>
+                            <div class="leftSide">
+                                <div class="otherImg">
+                                    <img id="otherImagges11" src="../img/card11/11.jpg" alt="">
+                                    <img id="otherImagges11" src="../img/card11/00.jpg" alt="">
+                                    <img id="otherImagges11" src="../img/card11/33.jpg" alt="">
+                                    <img id="otherImagges11" src="../img/card11/22.jpg" alt="">
+
+                                </div>
+                                <div class="mainImg">
+                                    <div class="colors">
+                                        <div style="background-color: rgb(226, 228, 142);" class="color"></div>
+                                        <div style="background-color: rgb(165, 188, 105);" class="color"></div>
+                                        <div style="background-color: rgb(181, 105, 29);" class="color"></div>
+                                        <div style="background-color: rgb(118, 102, 85);" class="color"></div>
+                                        <div style="background-color: rgb(203, 145, 140);" class="color"></div>
+                                        <div style="background-color: rgb(46, 74, 21);" class="color"></div>
+                                        <div style="background-color: rgb(44, 92, 181);" class="color"></div>
+
+                                    </div>
+                                    <img id="mainImgCov11" src="../img/card11/00.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="card10" style="margin: 10px 5px;">
+                        <div class="colorCard10">
+                            <div class="innerColors10">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(54, 96, 44)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(98, 66, 35)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(25, 38, 123)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+
+                                <svg id="fullCard10" style="margin-top: 120px; cursor: pointer;"
+                                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="conDivCard10">
+                            <div class="titleCard10">
+                                <span class="sTitle10">عينک آفتابی روز دخترانه ysl new</span>
+                                <button>5%</button>
+                            </div>
+                            <div class="mainPrice10">
+                                <div class="pice10">
+                                    <span class="firstPrice10">763.000</span>
+                                    <span class="finalPrice10">650.000</span>
+
+                                </div>
+                                <span class="toman10">تومان</span>
+                            </div>
+                        </div>
+                        <div class="imgDivCard10">
+                            <img src="../img/card10/0.jpg" alt="">
+                        </div>
+                    </div>
+                    <div id="tenthCard" class="popCard100">
+                        <div class="titleBox10">
+                            <h2>عينک آفتابی روز دخترانه ysl new</h2>
+                            <span id="mainPrice10" style="visibility: hidden;">650000</span>
+                            <button id="closBtnCart10">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgb(194, 7, 7)"
+                                    class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="accordion accordion10" id="accordionExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header ">
+                                    <button style=" font-size:16px; font-weight: 600;" class="accordion-button"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        درباره کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion1">
+                                            <div class="divSpans">
+                                                <p style="width: 100%;">جنس فریم : فلزی</p>
+                                                <span style="width: 100%;">عرض فریم : ۱۴۵ میلی‌متر</span>
+                                                <span style="width: 100%;">عرض عدسی : ۵۱ میلی‌متر</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ارسال کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion2">
+                                            <div class="contAccor2">
+                                                <p>تمامی مراحل را از زمان ثبت تا ارسال سفارشات را از طریق پیامک به اطلاع
+                                                    شما می‌رسانیم.</p><br>
+                                                <p>بعد از دریافت پیامک ارسال مرسوله، برای دریافت کد رهگیری وارد کانال
+                                                    واتس آپ شده و در لیست های ارسالی، کد رهگیری خود را پیدا کنید. روش
+                                                    پیگیری را به طور کامل در کانال توضیح دادیم.</p><br>
+                                                <p>تمامی سفارشات شما را با پست پیشتاز به سراسر کشور ارسال میکنیم و از
+                                                    روز ارسال طی ۳-۴ روز کاری (در صورتی که اداره پست اختلال یا تاخیر
+                                                    نداشته باشد) به دست شما خواهد رسید.</p><br>
+                                                <p>ارسال سریع توسط چاپار ، از طریق شرکت چاپار کدرهگیری برای شما پیامک
+                                                    میشود و مدت زمان رسیدن بسته ۲ تا ۴ روز کاری است .</p>
+                                            </div>
+
+                                            <div class="imgDiv">
+                                                <img src="../img/card1/loading-the-truck.gif" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-item10 ">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        افزودن به سبد خرید
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse2"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <button id="sendNum10" class="sendToBag10">افزودن به سبد خرید</button>
+                                        <button
+                                            style="pointer-events: none; background-color: green; border-radius: 5px;"
+                                            class="sendToBag">قیمت : 650.000 تومان</button>
+                                        <div id="divTakh10" class="floating-lable-group">
+                                            <input id="codeTakhfif10" type="text">
+                                            <label class="floating-lable">کد تخفیف را وارد کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="number" id="numOfThg10">
+                                            <label class="floating-lable">تعداد را مشخص کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWithOut10" style="pointer-events: none;">
+                                            <label class="floating-lable"> بدون تخفیف</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWith10" style="pointer-events: none;">
+                                            <label class="floating-lable"> با تخفیف</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divImgCard10">
+                            <div class="rightSid">
+                                <h2 class="headComment">نظر خریداران</h2>
+                                <div class="comment" style="margin-top: 0;">
+                                    <h3>نازنین زهرا</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/07/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>سمیه</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>نیلوفر زارع</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>مرضیه R</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>کژال</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                            </div>
+                            <div class="leftSide">
+                                <div class="otherImg">
+                                    <img id="otherImagges10" src="../img/card10/1.jpg" alt="">
+                                    <img id="otherImagges10" src="../img/card10/0.jpg" alt="">
+                                    <img id="otherImagges10" src="../img/card10/2.jpg" alt="">
+                                    <img id="otherImagges10" src="../img/card10/3.jpg" alt="">
+
+                                </div>
+                                <div class="mainImg">
+                                    <div class="colors">
+                                        <div style="background-color: rgb(54, 96, 44);" class="color"></div>
+                                        <div style="background-color: rgb(0, 0, 0);" class="color"></div>
+                                        <div style="background-color: rgb(98, 66, 35);" class="color"></div>
+                                        <div style="background-color: rgb(25, 38, 123);" class="color"></div>
+
+
+                                    </div>
+                                    <img id="mainImgCov10" src="../img/card10/0.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="card4">
+                        <div class="contentBcart4">
+                            <h4>ست بافت زوج پاییزی</h4>
+                            <p>
+                                کشور مبدا برند:
+                                ترکیه <br>
+                            </p>
+                            <div class="mainPriceDiveBcart4">
+                                <span class="toman4">تومان</span>
+                                <div class="priceDiveBcart4">
+                                    <span class="firstPrice4">1.900.000</span>
+                                    <span class="finalPrice4">1.200.000</span>
+                                </div>
+                                <div class="btnsCard4">
+                                    <button class="priceDiveBtncart4">10%</button>
+                                    <span class="spnBtn4">
+                                        <svg id="fullCard4" style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg"
+                                            width="25" height="25" fill="currentColor" class="bi bi-arrows-fullscreen"
+                                            viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707" />
+                                        </svg>
+                                    </span>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <img src="../img/card4/autumnal-flatlay-with-coffee-leather-shoes_118124-327715.avif" alt="">
+                    </div>
+                    <div id="fourthCard" class="popCard40">
+                        <div class="titleBox4">
+                            <h2>ست بافت زوج پاییزی</h2>
+                            <span id="mainPrice4" style="visibility: hidden;">1200000</span>
+                            <button id="closBtnCart4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgb(194, 7, 7)"
+                                    class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="accordion accordion4" id="accordionExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header ">
+                                    <button style=" font-size:16px; font-weight: 600;" class="accordion-button"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        درباره کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion1">
+                                            <div class="divSpans">
+                                                <p style="width: 100%;">جنس : بافت - یقه گرد</p>
+                                                <span style="width: 100%;">مناسب سایز 36 تا 44 - (زنانه)</span>
+                                                <span style="width: 100%;">مناسب سایز 40 تا 52 - (مردانه)</span>
+                                                <span style="width: 100%;">در راهنمای اندازه گیری 2 الی 4 سانتی متر
+                                                    احتمال خطا وجود دارد.</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ارسال کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion2">
+                                            <div class="contAccor2">
+                                                <p>تمامی مراحل را از زمان ثبت تا ارسال سفارشات را از طریق پیامک به اطلاع
+                                                    شما می‌رسانیم.</p><br>
+                                                <p>بعد از دریافت پیامک ارسال مرسوله، برای دریافت کد رهگیری وارد کانال
+                                                    واتس آپ شده و در لیست های ارسالی، کد رهگیری خود را پیدا کنید. روش
+                                                    پیگیری را به طور کامل در کانال توضیح دادیم.</p><br>
+                                                <p>تمامی سفارشات شما را با پست پیشتاز به سراسر کشور ارسال میکنیم و از
+                                                    روز ارسال طی ۳-۴ روز کاری (در صورتی که اداره پست اختلال یا تاخیر
+                                                    نداشته باشد) به دست شما خواهد رسید.</p><br>
+                                                <p>ارسال سریع توسط چاپار ، از طریق شرکت چاپار کدرهگیری برای شما پیامک
+                                                    میشود و مدت زمان رسیدن بسته ۲ تا ۴ روز کاری است .</p>
+                                            </div>
+
+                                            <div class="imgDiv">
+                                                <img src="../img/card1/loading-the-truck.gif" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-item4 ">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        افزودن به سبد خرید
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse2"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <button id="sendNum4" class="sendToBag4">افزودن به سبد خرید</button>
+                                        <button
+                                            style="pointer-events: none; background-color: green; border-radius: 5px;"
+                                            class="sendToBag">قیمت : 1.200.000 تومان</button>
+                                        <div id="divTakh4" class="floating-lable-group">
+                                            <input id="codeTakhfif4" type="text">
+                                            <label class="floating-lable">کد تخفیف را وارد کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="number" id="numOfThg4">
+                                            <label class="floating-lable">تعداد را مشخص کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWithOut4" style="pointer-events: none;">
+                                            <label class="floating-lable"> بدون تخفیف</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWith4" style="pointer-events: none;">
+                                            <label class="floating-lable"> با تخفیف</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divImgCard4">
+                            <div class="rightSid">
+                                <h2 class="headComment">نظر خریداران</h2>
+                                <div class="comment" style="margin-top: 0;">
+                                    <h3>نازنین زهرا</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/07/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>سمیه</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>نیلوفر زارع</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>مرضیه R</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>کژال</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                            </div>
+                            <div class="leftSide">
+                                <div class="otherImg">
+                                    <img id="otherImagges4" src="../img/card4/1.jpg" alt="">
+                                    <img id="otherImagges4" src="../img/card4/0.jpg" alt="">
+                                    <img id="otherImagges4" src="../img/card4/2.jpg" alt="">
+                                    <img id="otherImagges4" src="../img/card4/3.jpg" alt="">
+                                </div>
+                                <div class="mainImg">
+                                    <img id="mainImgCov4" src="../img/card4/0.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card5">
+                        <div class="contentBcart5">
+                            <h4>پلیور کراپ یقه اسکی</h4>
+                            <p>
+                                برند: Okuma <br>
+                                مدل: Motif Flat Peak
+                            </p>
+                            <div class="mainPriceDiveBcart5">
+                                <span class="toman5">تومان</span>
+                                <div class="priceDiveBcart5">
+                                    <span class="firstPrice5">900.000</span>
+                                    <span class="finalPrice5">849.000</span>
+                                </div>
+                                <div class="btnsCard5">
+                                    <button class="priceDiveBtncart5">6%</button>
+                                    <span class="spnBtn5">
+                                        <svg id="fullCard5" style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg"
+                                            width="25" height="25" fill="currentColor" class="bi bi-arrows-fullscreen"
+                                            viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707" />
+                                        </svg>
+                                    </span>
+
+                                </div>
+
+                            </div>
+                            <div class="colorSideCard5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(251, 223, 152)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(122, 122, 122)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(55, 55, 55)"
+                                    class="bi bi-circle-fill" viewBox="0 0 16 16">
+                                    <circle cx="8" cy="8" r="8" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <img src="../img/card5/autumn-season-background-stack-comfort-pastel-color-knit-sweaters_633877-2971.jpg"
+                            alt="">
+                    </div>
+                    <div id="fifthCard" class="popCard50">
+                        <div class="titleBox5">
+                            <h2>پلیور کراپ یقه اسکی</h2>
+                            <span id="mainPrice5" style="visibility: hidden;">849000</span>
+                            <button id="closBtnCart5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgb(194, 7, 7)"
+                                    class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="accordion accordion5" id="accordionExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header ">
+                                    <button style=" font-size:16px; font-weight: 600;" class="accordion-button"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        درباره کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion1">
+                                            <div class="divSpans">
+                                                <p style="width: 100%;">جنس : بافت - یقه اسکی</p>
+                                                <span style="width: 100%;">مناسب سایز 36 تا 44</span>
+                                                <span style="width: 100%;">در راهنمای اندازه گیری 2 الی 4 سانتی متر
+                                                    احتمال خطا وجود دارد.</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ارسال کالا
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample" style="background-color: rgb(242,242,242);">
+                                    <div class="accordion-body">
+                                        <div class="interAccordion2">
+                                            <div class="contAccor2">
+                                                <p>تمامی مراحل را از زمان ثبت تا ارسال سفارشات را از طریق پیامک به اطلاع
+                                                    شما می‌رسانیم.</p><br>
+                                                <p>بعد از دریافت پیامک ارسال مرسوله، برای دریافت کد رهگیری وارد کانال
+                                                    واتس آپ شده و در لیست های ارسالی، کد رهگیری خود را پیدا کنید. روش
+                                                    پیگیری را به طور کامل در کانال توضیح دادیم.</p><br>
+                                                <p>تمامی سفارشات شما را با پست پیشتاز به سراسر کشور ارسال میکنیم و از
+                                                    روز ارسال طی ۳-۴ روز کاری (در صورتی که اداره پست اختلال یا تاخیر
+                                                    نداشته باشد) به دست شما خواهد رسید.</p><br>
+                                                <p>ارسال سریع توسط چاپار ، از طریق شرکت چاپار کدرهگیری برای شما پیامک
+                                                    میشود و مدت زمان رسیدن بسته ۲ تا ۴ روز کاری است .</p>
+                                            </div>
+
+                                            <div class="imgDiv">
+                                                <img src="../img/card1/loading-the-truck.gif" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item accordion-item5 ">
+                                <h2 class="accordion-header">
+                                    <button style=" font-size:16px; font-weight: 600;"
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        افزودن به سبد خرید
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse2"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <button id="sendNum5" class="sendToBag5">افزودن به سبد خرید</button>
+                                        <button
+                                            style="pointer-events: none; background-color: green; border-radius: 5px;"
+                                            class="sendToBag">قیمت : 849.000 تومان</button>
+                                        <div id="divTakh5" class="floating-lable-group">
+                                            <input id="codeTakhfif5" type="text">
+                                            <label class="floating-lable">کد تخفیف را وارد کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="number" id="numOfThg5">
+                                            <label class="floating-lable">تعداد را مشخص کنید</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWithOut5" style="pointer-events: none;">
+                                            <label class="floating-lable"> بدون تخفیف</label>
+                                        </div>
+                                        <div class="floating-lable-group">
+                                            <input type="text" id="priceWith5" style="pointer-events: none;">
+                                            <label class="floating-lable"> با تخفیف</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divImgCard5">
+                            <div class="rightSid">
+                                <h2 class="headComment">نظر خریداران</h2>
+                                <div class="comment" style="margin-top: 0;">
+                                    <h3>نازنین زهرا</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/07/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>سمیه</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>نیلوفر زارع</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/06/20</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>مرضیه R</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                                <div class="comment">
+                                    <h3>کژال</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                        گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                                        و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد . </p>
+                                    <span>1403/05/18</span>
+                                </div>
+                            </div>
+                            <div class="leftSide">
+                                <div class="otherImg">
+                                    <img id="otherImagges5" src="../img/card5/1.jpeg" alt="">
+                                    <img id="otherImagges5" src="../img/card5/0.jpeg" alt="">
+                                    <img id="otherImagges5" src="../img/card5/2.jpeg" alt="">
+                                    <img id="otherImagges5" src="../img/card5/3.jpeg" alt="">
+
+                                </div>
+                                <div class="mainImg">
+                                    <div class="colors">
+                                        <div style="background-color: rgb(251, 223, 152);" class="color"></div>
+                                        <div style="background-color: rgb(122, 122, 122);" class="color"></div>
+                                        <div style="background-color: black;" class="color"></div>
+                                        <div style="background-color: rgb(55, 55, 55);" class="color"></div>
+
+
+                                    </div>
+                                    <img id="mainImgCov5" src="../img/card5/0.jpeg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="card9">
+                        <div class="div0Card9">
+                            <div class="col1Card9">
+                                <h6>فروشگاه پیشرو</h6>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                    برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                                    می باشد. کتابهای زیادی در شصت و سه درصد گذشته.
+                                </p>
+                            </div>
+                            <div class="col2Card9">
+                                <h6>خدمات مشتریان</h6>
+                                <ul>
+                                    <li>راهنمای خرید</li>
+                                    <li>روش های ارسال</li>
+                                    <li>پرسش های متداول</li>
+                                    <li>حریم خصوصی</li>
+                                    <li>شرایط و قوانین</li>
+                                    <li>رویه بازگرداندن کالا</li>
+                                </ul>
+                            </div>
+                            <div class="col3Card9">
+                                <h6>دسترسی سریع</h6>
+                                <ul>
+                                    <li>پی گیری سفارشات</li>
+                                    <li>حساب کاربری من</li>
+                                    <li>لیست علاقه مندی ها</li>
+                                    <li>تماس با پیشرو</li>
+                                    <li>درباره پیشرو</li>
+                                </ul>
+                            </div>
+                            <div class="col4Card9">
+                                <div>
+                                    <img src="../img/000-Photoroom.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="../img/اتحادیه-کشوری-صنف-کسب-و-کارهای-مجازی-Photoroom.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- <div class="div1Card9"></div>
+                        <div class="div2Card9"></div>
+                        <div class="div3Card9"></div>
+                        <div class="div4Card9"></div>
+                        <div class="div5Card9"></div>
+                        <div class="div6Card9"></div> -->
+                        <div class="div7Card9">
+                            <div class="interDiv7Card9">
+                                <div class="sideRightD7C9">
+                                    <span class="appSpan">
+                                        <svg xmlns="http://www.w3.org/2000/svg" 
+                                            class="bi bi-grid" viewBox="0 0 16 16">
+                                            <path
+                                                d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z" />
+                                        </svg>
+                                        دانلود اپلیکیشن
+                                    </span>
+                                    <div class="sideLeftD7C9">
+                                        <button style="background-color: rgb(254, 117, 104);"><a  id="tel" href="sms:+989905278461">تماس با ما</a></button>
+                                        <button style="background-color: rgb(254, 117, 104);"><a id="sms" href="sms:+989905278461">ارسال پیامک</a></button>
+                                        <button style="background-color: rgb(254, 117, 104)"><a id="eMail" href="mailto:shiraz.bpn@gmail.com">ارسال ایمیل</a></button>
+                                        <button style="background-color: rgb(254, 117, 104)"><a id="whatsApp" href="https://wa.me/989905278461" title="click to open whatsapp chat">ارتباط با WhatsApp</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="shop1.js"></script>
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

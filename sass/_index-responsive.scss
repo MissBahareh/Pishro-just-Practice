@@ -1,0 +1,474 @@
+@media screen and (max-width:1317px) {
+    body{
+        .main {
+            .heder{
+                position: fixed;
+                left: 0;
+
+            }
+            .middel{
+                .cart1{
+                    width: 350px;
+                    height: 350px;
+                    position: absolute;
+                    top: 20%;
+                    left: 0;
+
+
+                }
+                .cart2{
+                    position: absolute;
+                    top: 80%;
+                    right: 50%;
+
+
+
+                }
+                .cart3{
+                    width: 350px;
+                    height: 350px;
+                    position: absolute;
+                    top: 60%;
+                    right: 29%;
+
+
+                }
+                .cart4{
+                    width: 350px;
+                    height: 350px;
+                    position: absolute;
+                    top: 60%;
+                    left: 0%;
+
+
+                }
+                .cart5{
+                    width: 350px;
+                    height: 350px;
+                    position: absolute;
+                    top: 40%;
+                    right: 8%;
+
+
+                }
+                .cart6{
+                    width: 340px;
+                    height: 340px;
+                    position: absolute;
+                    top: 41%;
+                    right: 50%;
+
+
+                }
+                .cart7{
+                    width: 340px;
+                    height: 340px;
+                    position: absolute;
+                    top: 78%;
+                    right: 6%;
+
+
+                }
+                .cart8{
+                    display: none;
+                }
+                .cart9{
+                    width: 60%;
+                    height: 400px;
+                    position: absolute;
+                    top: 0%;
+                    right: 8%;
+                    // background-color: chartreuse;
+                    .titlePage{
+                        height: 80vh;
+
+                    }
+                    .locationTitlePage{
+                        height: 20vh;
+                    }
+
+
+                }
+                
+            }
+        }
+    }
+}
+@media screen and (max-width:1191px) {
+    body{
+        .main {
+            .heder{
+                min-width: 1178px;
+                width:100%;
+                height: 5vh;
+                display: flex;
+                justify-content: right;
+                align-items: flex-start;
+                background-color: blue;
+                margin-right: 0;
+                .mainDivHeader{
+                    height: 100rem;
+                    height: 5vh;
+                    background-color: aqua;
+                    display: flex;
+                    justify-content: right;
+                    align-items: flex-start;
+                    margin-right: 0;
+                    min-width: 1178px;
+                    width:100%;
+                    height: 5vh;
+                    display: flex;
+                    justify-content: right;
+                    align-items: flex-start;
+                    background-color: blue;
+                    margin-right: 0;
+                    .mainDivHeader{
+                        height: 100rem;
+                        height: 5vh;
+                        background-color: aqua;
+                        display: flex;
+                        justify-content: right;
+                        align-items: flex-start;
+                        margin-right: 0;
+                    }
+                }
+
+            }
+            .middel{
+                height: 100vh;
+                .cart1{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 20%;
+                    left: 0;
+
+
+                }
+                .cart2{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 70%;
+                    right: 50%;
+
+
+
+                }
+                .cart3{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 70%;
+                    right: 5%;
+
+
+                }
+                .cart4{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 63%;
+                    left: 0%;
+
+
+                }
+                .cart5{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: -2%;
+                    right: 62%;
+
+
+                }
+                .cart6{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 42%;
+                    right: 62%;
+
+
+                }
+                .cart7{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 55%;
+                    right: 28%;
+
+
+                }
+                .cart8{
+                    display: none;
+                }
+                .cart9{
+                    width: 60%;
+                    height: 400px;
+                    position: absolute;
+                    top: 0%;
+                    right: 0%;
+                    // background-color: chartreuse;
+                    .titlePage{
+                        height: 80vh;
+
+                    }
+                    .locationTitlePage{
+                        height: 20vh;
+                    }
+
+
+                }
+                
+            }
+            .footer{
+                position: relative;
+                .footerCards{
+                    position: relative;
+                    .card8Footer{
+                        position: fixed;
+                        top: 50%;
+                        right:40%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1143px) {
+    body{
+        .main {
+            .header{
+                min-width: 1178px;
+                width:100%;
+                height: 5vh;
+                display: flex;
+                justify-content: right;
+                align-items: flex-start;
+                margin-right: 0;
+                .mainDivHeader{
+                    height: 100rem;
+                    height: 5vh;
+                    display: flex;
+                    justify-content: right;
+                    align-items: flex-start;
+                    margin-right: 0;
+                    
+                   
+
+                }
+                
+
+            }
+            .middel{
+                height: 100vh;
+                .cart1{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 20%;
+                    left: 0;
+
+
+                }
+                .cart2{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 70%;
+                    right: 50%;
+
+
+
+                }
+                .cart3{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 70%;
+                    right: 5%;
+
+
+                }
+                .cart4{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 63%;
+                    left: 0%;
+
+
+                }
+                .cart5{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: -2%;
+                    right: 62%;
+
+
+                }
+                .cart6{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 42%;
+                    right: 62%;
+
+
+                }
+                .cart7{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 55%;
+                    right: 28%;
+
+
+                }
+                .cart8{
+                    display: none;
+                }
+                .cart9{
+                    width: 60%;
+                    height: 400px;
+                    position: absolute;
+                    top: 0%;
+                    right: 0%;
+                    // background-color: chartreuse;
+                    .titlePage{
+                        height: 80vh;
+
+                    }
+                    .locationTitlePage{
+                        height: 20vh;
+                    }
+                    
+
+
+                }
+                
+            }
+        }
+    }
+}
+@media screen and (max-width:1087px) {
+    body{
+        .main {
+            .header{
+                display: none;
+                
+
+            }
+            .middel{
+                height: 100vh;
+                .cart1{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 20%;
+                    left: 0;
+
+
+                }
+                .cart2{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 70%;
+                    right: 50%;
+
+
+
+                }
+                .cart3{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 70%;
+                    right: 5%;
+
+
+                }
+                .cart4{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 63%;
+                    left: 0%;
+
+
+                }
+                .cart5{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: -2%;
+                    right: 62%;
+
+
+                }
+                .cart6{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 42%;
+                    right: 62%;
+
+
+                }
+                .cart7{
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    top: 55%;
+                    right: 28%;
+
+
+                }
+                .cart8{
+                    display: none;
+                }
+                .cart9{
+                    width: 60%;
+                    height: 400px;
+                    position: absolute;
+                    top: 0%;
+                    right: 0%;
+                    // background-color: chartreuse;
+                    .titlePage{
+                        height: 80vh;
+
+                    }
+                    .locationTitlePage{
+                        height: 20vh;
+                    }
+                    // .shenavae{
+                    //     visibility: visible;
+                    //     display: flex;
+                    //     padding: 5px 10px;
+                    //     border: none;
+                    //     margin: 5px;
+                    //     background-color: aqua;
+                    // }
+
+
+                }
+                .cart0090{
+                    visibility: visible;
+                    display: flex;
+                    width: 100%;
+                    height: 50%;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    background-color: aquamarine;
+                    
+                }
+                
+            }
+        }
+    }
+}
+
